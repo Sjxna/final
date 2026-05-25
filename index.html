@@ -2,24 +2,81 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>GALLERY</title>
+    <title>Our Blooms — Home</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-
     <header class="navbar">
-        <div class="logo-small">Our Blooms®</div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#">GALLERY</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-        </nav>
+    <a href="index.html" class="logo-small">Our Blooms®</a>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="https://www.figma.com/sites/" target="_blank">CONTACT</a></li>
+        </ul>
+    </nav>
     </header>
     <main class="content">
-        <h1 class="hero-title">Our Blooms®</h1>
-        <img class="img" src="assets/Image.svg" alt="">
+        <img class="title-img" src="assets/logo.svg" alt="Our Blooms">
+        <img class="img scroll-anim" src="assets/Image.svg" alt="">
+        <section class="about-block scroll-anim">
+            <span class="about-subtitle">WHO WE ARE</span>
+            <h2 class="about-text">We're Our Blooms® and we're here to help you find your floral story.</h2>
+            <a href="about.html" class="btn-about">
+                <span class="dot"></span>ABOUT US
+            </a>
+            <ul class="flower-gallery">
+                <li><img src="assets/my-flower1.svg"></li>
+                <li><img src="assets/my-flower2.svg"></li>
+                <li><img src="assets/my-flower3.svg"></li>
+                <li><img src="assets/my-flower4.svg"></li>
+                <li><img src="assets/my-flower5.svg"></li>
+            </ul>
+        </section>
+        <section class="services-block scroll-anim">
+            <h2 class="services-title">WHAT WE DO</h2>
+            <p class="services-subtitle">We bring a touch of that simple magic into your world.</p>
+            <hr class="section-divider">
+            <div class="service-card my-photo-card">
+                <span class="service-number">1</span>
+                <div class="service-img-wrapper">
+                    <img src="assets/installation.svg" alt="Floral Installations">
+                </div>
+                <h3 class="service-name">FLORAL INSTALLATIONS</h3>
+                <p class="service-description">Living art for homes, businesses, and events.</p>
+            </div>
+            <hr class="section-divider">
+            <div class="service-card">
+                <span class="service-number">2</span>
+                <div class="service-img-wrapper">
+                    <img src="assets/native-plants.svg" alt="Native Plant Arrangements">
+                </div>
+                <h3 class="service-name">NATIVE PLANT ARRANGEMENTS</h3>
+                <p class="service-description">Whether it's a private retreat or a public space, we craft floral experiences that bloom beyond expectations.</p>
+            </div>
+            <hr class="section-divider">
+            <div class="service-card">
+                <span class="service-number">3</span>
+                <div class="service-img-wrapper">
+                    <img src="assets/service3.svg" alt="">
+                </div>
+                <h3 class="service-name">CUSTOM FLORAL CONCEPTS</h3>
+                <p class="service-description">Your vision, our blooms. We build arrangements that are both personal and exquisitely simple. Whether it’s a private retreat or a public space, we craft floral experiences that bloom beyond expectations.</p>
+            </div>
+            <hr class="section-divider">
+            <img class="bottom-temp-img" src="assets/image_13.svg" alt="">
+        </section>
+        <section class="work-block scroll-anim">
+            <span class="work-subtitle">WORK WITH US</span>
+            <h2 class="work-title">Discover how we can add a touch of natural beauty to your next event.</h2>
+            <a href="about.html" class="btn-about">
+                <span class="dot"></span>ABOUT US
+            </a>
+        </section>
+        <a href="https://www.figma.com/sites/" target="_blank">
+            <img class="footer-img scroll-anim" src="assets/footer.svg" alt="Footer Image">
+        </a>
     </main>
+    <script src="app.js"></script>
 </body>
 </html>
