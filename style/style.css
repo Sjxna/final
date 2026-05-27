@@ -567,6 +567,12 @@ body {
     transform: translateY(0);
 }
 /*                           MEDIA               */
+@media (max-width: 1150px) {
+    .gallery-main-title, .gallery-subtitle {
+        margin-left: 0 !important;
+        text-align: left;
+    }
+}
 @media (max-width: 799px) {
     .navbar {
         padding: 15px 20px; 
@@ -679,9 +685,8 @@ body {
     .footer-img {
         width: 100% !important;
         max-width: 100% !important;
-        height: auto !important;
-        aspect-ratio: 799 / 430;
-        object-fit: contain;
+        height: 350px !important;
+        object-fit: cover !important;
         border-radius: 0px; 
         margin-top: 60px;
         margin-bottom: 0px;
